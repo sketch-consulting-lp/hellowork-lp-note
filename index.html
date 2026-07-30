@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ハローワークに求人を出している。それでも、応募が来ない会社へ。｜株式会社スケッチ</title>
+<meta name="description" content="ハローワークに求人を出しても応募が来ない中小企業様へ。求人票の見直しポイントをまとめたホワイトペーパーを無料配布中です。">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #f5f5f0; }
+  .lp {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+  }
+  .section {
+    position: relative;
+    width: 100%;
+    line-height: 0; /* 画像下の隙間を防ぐ */
+  }
+  .section img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hotspot {
+    position: absolute;
+    display: block;
+    /* デバッグ用に見たいときは以下のコメントを外す */
+    /* background: rgba(255,0,0,0.3); */
+  }
+
+  /* ▼問い合わせフォーム */
+  .form-section {
+    background: #f5f5f0;
+    padding: 40px 24px 56px;
+  }
+  .form-section h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #1a2b4c;
+    margin-bottom: 8px;
+  }
+  .form-section .sub {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 28px;
+  }
+  .form-box {
+    background: #fff;
+    border-radius: 16px;
+    padding: 28px 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  }
+  .form-row { margin-bottom: 18px; }
+  .form-row label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a2b4c;
+    margin-bottom: 6px;
+  }
+  .form-row .required {
+    color: #fff;
+    background: #e0554f;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  .form-row .optional {
+    color: #666;
+    background: #eee;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  .form-row input {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  .form-row input:focus { outline: 2px solid #6bbf3f; background: #fff; }
+
+  .submit-btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #7ac142, #4f9d2f);
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  .submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+  .form-note {
+    font-size: 11px;
+    color: #777;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+
+  .thanks-box {
+    display: none;
+    text-align: center;
+    padding: 40px 10px;
+  }
+  .thanks-box .check {
+    font-size: 40px;
+    color: #4f9d2f;
+    margin-bottom: 12px;
+  }
+  .thanks-box h3 {
+    color: #1a2b4c;
+    margin-bottom: 12px;
+  }
+  .thanks-box p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="lp">
+
+  <!-- ① ファーストビュー -->
+  <div class="section">
+    <img src="hw_1.png" alt="ハローワークに求人を出している。それでも、応募が来ない会社へ。原因は、求人票の伝え方かもしれません。">
+    <a class="hotspot" href="#cta" aria-label="ホワイトペーパー無料配布中"
+       style="left:5.7%; top:86.2%; width:86.92%; height:9.82%;"></a>
+  </div>
+
+  <!-- ② 共感 -->
+  <div class="section">
+    <img src="hw_2.png" alt="『無料だから仕方ない』と、諦めていませんか？">
+  </div>
+
+  <!-- ③ 意外性＋実績 -->
+  <div class="section">
+    <img src="hw_3.png" alt="求人票の言葉を変えただけではありません。福井県の製造業、応募0名から22名、採用3名の実績。">
+  </div>
+
+  <!-- ④ 最終CTA -->
+  <div class="section" id="cta">
+    <img src="hw_4.png" alt="『応募が来ない』と諦める前に。効果改善ポイントが1冊でわかる資料を、無料でダウンロード。">
+    <a class="hotspot" href="#form" aria-label="無料でダウンロード"
+       style="left:11.6%; top:82.4%; width:77.85%; height:9.28%;"></a>
+  </div>
+
+  <!-- ⑤ 問い合わせフォーム -->
+  <div class="form-section" id="form">
+    <h2>ホワイトペーパーを受け取る</h2>
+    <p class="sub">以下のフォームにご入力ください。<br>担当者よりホワイトペーパーをメールにてお送りいたします。</p>
+
+    <div class="form-box">
+
+      <form id="wp-form" action="https://formspree.io/f/xkodeypg" method="POST">
+        <div class="form-row">
+          <label for="company">会社名<span class="required">必須</span></label>
+          <input type="text" id="company" name="company" required>
+        </div>
+        <div class="form-row">
+          <label for="name">担当者名<span class="required">必須</span></label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="tel">電話番号<span class="required">必須</span></label>
+          <input type="tel" id="tel" name="tel" required>
+        </div>
+        <div class="form-row">
+          <label for="email">メールアドレス<span class="required">必須</span></label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="hp">会社HP<span class="optional">任意</span></label>
+          <input type="url" id="hp" name="hp" placeholder="https://">
+        </div>
+
+        <button type="submit" class="submit-btn" id="submit-btn">ホワイトペーパーを受け取る ›</button>
+
+        <p class="form-note">
+          ※ 採用支援・人材紹介・研修・広報・マーケティング支援等を主たる事業とされている企業・個人の方によるお申し込みはご遠慮いただいております。<br>
+          ※ お申し込み後、ホワイトペーパーのPDFをメールにてご案内します。<br>
+          ※ いただいた個人情報は本資料のご案内目的にのみ使用します。
+        </p>
+      </form>
+
+      <div class="thanks-box" id="thanks-box">
+        <div class="check">✅</div>
+        <h3>お申し込みありがとうございます！</h3>
+        <p>
+          担当者よりホワイトペーパーを<br>
+          メールにてお送りいたします。<br>
+          しばらくお待ちください。
+        </p>
+        <p style="margin-top:16px;">株式会社スケッチ｜info@sketch-consulting.co.jp</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const form = document.getElementById('wp-form');
+  const submitBtn = document.getElementById('submit-btn');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = '送信中...';
+
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(function (response) {
+      if (response.ok) {
+        form.style.display = 'none';
+        document.getElementById('thanks-box').style.display = 'block';
+      } else {
+        alert('送信に失敗しました。お手数ですが、時間をおいて再度お試しください。');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'ホワイトペーパーを受け取る ›';
+      }
+    })
+    .catch(function () {
+      alert('送信に失敗しました。お手数ですが、時間をおいて再度お試しください。');
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'ホワイトペーパーを受け取る ›';
+    });
+  });
+</script>
+
+</body>
+</html>
